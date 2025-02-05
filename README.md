@@ -161,20 +161,20 @@ For preference comparison, we report the results of the "strict" metric.
 The **best** test results are highlighted in bold, and the *second-best* results are in italic. 
 _Strict_ treats undecided cases as incorrect, while _tie-aware_ assigns 0.5 for ties in calculating accuracy.  
 
-| Model         | \datasetname (Strict) | \datasetname (Tie-aware) | Safesora-test (Strict) | Safesora-test (Tie-aware) | GenAI-Bench (Strict) | GenAI-Bench (Tie-aware) |
-| ------------- | --------------------- | ------------------------ | ---------------------- | ------------------------- | -------------------- | ----------------------- |
-| InternVL2-2B  | 5.93                  | 47.88                    | 4.60                   | 50.30                     | 13.71                | 55.43                   |
-| InternVL2-4B  | 13.55                 | 49.15                    | 11.74                  | 50.91                     | 39.00                | 61.79                   |
-| InternVL2-8B  | 16.95                 | 47.88                    | 14.29                  | 53.09                     | 36.85                | 62.43                   |
-| InternVL2-26B | 22.88                 | 53.81                    | 10.41                  | 52.00                     | 31.86                | 55.64                   |
-| Qwen-VL-2B    | 13.33                 | 48.09                    | 13.18                  | 51.27                     | 27.29                | 56.71                   |
-| Qwen-VL-7B    | 17.14                 | 47.62                    | 14.58                  | 52.41                     | 20.57                | 51.36                   |
-| MiniCPM       | 30.51                 | 53.39                    | 25.30                  | 52.54                     | 47.43                | 60.21                   |
-| CogVLM2       | 8.47                  | 47.46                    | 9.56                   | 52.48                     | 21.29                | 56.29                   |
-| VideoScore    | *58.47*               | *58.47*                  | *55.33*                | *55.51*                   | *69.14*              | *69.14*                 |
-| Gemini        | 2.66                  | 48.67                    | 2.66                   | 48.67                     | 21.45                | 50.71                   |
-| GPT-4o        | 35.35                 | 54.6                     | 35.35                  | 54.6                      | 48.85                | 59.14                   |
-| **MJ-VIDEO**  | **68.75**             | **68.75**                | **64.16**              | **64.16**                 | **70.28**            | **70.28**               |
+| Model         | MJ-BENCH-VIDEO(Strict) | MJ-BENCH-VIDEO(Tie-aware) | Safesora-test (Strict) | Safesora-test (Tie-aware) | GenAI-Bench (Strict) | GenAI-Bench (Tie-aware) |
+| ------------- | ---------------------- | ------------------------- | ---------------------- | ------------------------- | -------------------- | ----------------------- |
+| InternVL2-2B  | 5.93                   | 47.88                     | 4.60                   | 50.30                     | 13.71                | 55.43                   |
+| InternVL2-4B  | 13.55                  | 49.15                     | 11.74                  | 50.91                     | 39.00                | 61.79                   |
+| InternVL2-8B  | 16.95                  | 47.88                     | 14.29                  | 53.09                     | 36.85                | 62.43                   |
+| InternVL2-26B | 22.88                  | 53.81                     | 10.41                  | 52.00                     | 31.86                | 55.64                   |
+| Qwen-VL-2B    | 13.33                  | 48.09                     | 13.18                  | 51.27                     | 27.29                | 56.71                   |
+| Qwen-VL-7B    | 17.14                  | 47.62                     | 14.58                  | 52.41                     | 20.57                | 51.36                   |
+| MiniCPM       | 30.51                  | 53.39                     | 25.30                  | 52.54                     | 47.43                | 60.21                   |
+| CogVLM2       | 8.47                   | 47.46                     | 9.56                   | 52.48                     | 21.29                | 56.29                   |
+| VideoScore    | *58.47*                | *58.47*                   | *55.33*                | *55.51*                   | *69.14*              | *69.14*                 |
+| Gemini        | 2.66                   | 48.67                     | 2.66                   | 48.67                     | 21.45                | 50.71                   |
+| GPT-4o        | 35.35                  | 54.6                      | 35.35                  | 54.6                      | 48.85                | 59.14                   |
+| **MJ-VIDEO**  | **68.75**              | **68.75**                 | **64.16**              | **64.16**                 | **70.28**            | **70.28**               |
 
 #### Evaluation of Video Models Across Human Evaluation and Automated Evaluation on VBench
 
