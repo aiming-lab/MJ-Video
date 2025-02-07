@@ -4,11 +4,11 @@
 <img style="height:22pt" src="https://img.shields.io/badge/-Paper-red?style=flat&logo=arxiv"></a>
 <a target="_blank" href="https://github.com/aiming-lab/MJ-Video">
 <img style="height:22pt" src="https://img.shields.io/badge/-Code-green?style=flat&logo=github"></a>
-<a target="_blank" href="https://github.com/aiming-lab/MJ-Video">
+<a target="_blank" href="https://aiming-lab.github.io/MJ-VIDEO.github.io">
 <img style="height:22pt" src="https://img.shields.io/badge/-🌐%20Website-blue?style=flat"></a>
 <a target="_blank" href="https://github.com/aiming-lab/MJ-Video/MJ-BENCH-VIDEO">
 <img style="height:22pt" src="https://img.shields.io/badge/-🤗%20Dataset-red?style=flat"></a>
-<a target="_blank" href="https://github.com/aiming-lab/MJ-Video">
+<a target="_blank" href="https://github.com/aiming-lab/MJ-Video/MJ-VIDEO-2B">
 <img style="height:22pt" src="https://img.shields.io/badge/-🤗%20Models-red?style=flat"></a>
 
 This repository contains the implementation of the paper "MJ-VIDEO: Fine-Grained Benchmarking and Rewarding Video Preferences in Video Generation".  We create a fine-grained video preference dataset **MJ-BENCH-VIDEO** and a MoE-structured video reward model **MJ-VIDEO**. 
